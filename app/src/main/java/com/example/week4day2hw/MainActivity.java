@@ -44,18 +44,5 @@ public class MainActivity extends AppCompatActivity {
         rvRecyclerView.setLayoutManager(layoutManager);
         rvRecyclerView.setAdapter(adapter);
 
-        adapter.setOnItemLongClickListener(new FlickrRecyclerViewAdapter.OnItemLongClickListener() {
-            @Override
-            public void onLongItemClick(String mediaLink) {
-                Log.d("TAG", "onLongItemClick: ");
-            }
-        });
-
-
-
     }
-
-
-
-
 }
